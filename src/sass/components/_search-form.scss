@@ -1,0 +1,19 @@
+.search-form {
+}
+
+.search-form__input {
+  padding: 10px 20px;
+
+  border: 1px solid gray;
+  border-radius: 8px;
+
+  outline: none;
+  line-height: 1.2;
+
+  transition: border-color 250ms ease-in-out;
+
+  &:hover,
+  &:focus {
+    border-color: blue;
+  }
+}
